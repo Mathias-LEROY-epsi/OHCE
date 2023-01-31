@@ -1,6 +1,6 @@
 class LangueStub:
-    def dire_bonjour(self, periode_journee):
-        return ""
+    def salutation(self):
+        return "Bonjour"
 
     def bien_dit(self):
-        return ""
+        return "Bien dit"

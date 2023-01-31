@@ -3,10 +3,10 @@ from src.PeriodeDeLaJournee import PeriodeDeLaJournee
 from src.utilities.LangueStub import LangueStub
 
 
-class OhceBuilder():
+class OhceBuilder:
     def __init__(self):
         self.__langue = LangueStub()
-        self.__periode_journee = PeriodeDeLaJournee.DEFAULT
+        self.__periode_journee = PeriodeDeLaJournee.MATIN
 
     def build(self):
         return Ohce(self.__langue, self.__periode_journee)
